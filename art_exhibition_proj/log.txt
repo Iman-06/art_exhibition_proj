@@ -17,3 +17,137 @@
 [EVENT] 2025-06-15 19:36:53: Displayed artwork image successfully.
 [EVENT] 2025-06-15 19:37:12: Curator started organizing exhibition: Impressionist Art
 [LOG] 2025-06-15 19:37:12: Exhibition report generated successfully for: Impressionist Art
+[EVENT] 2025-06-15 21:21:55: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 21:21:55: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-15 21:21:55: Artwork added: Artwork 1
+[EVENT] 2025-06-15 21:21:59: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-15 21:21:59: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-15 21:21:59: Artwork added: Artwork 2
+[EVENT] 2025-06-15 21:22:01: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-15 21:22:01: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-15 21:22:01: Artwork added: Artwork 3
+[EVENT] 2025-06-15 21:22:11: Curator started organizing exhibition: Impressionist Art
+[LOG] 2025-06-15 21:22:11: Exhibition report generated successfully for: Impressionist Art
+[EVENT] 2025-06-15 21:37:41: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 21:37:41: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-15 21:37:41: Artwork added: Artwork 1
+[EVENT] 2025-06-15 21:37:42: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-15 21:37:42: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-15 21:37:42: Artwork added: Artwork 2
+[EVENT] 2025-06-15 21:37:43: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-15 21:37:43: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-15 21:37:43: Artwork added: Artwork 3
+[EVENT] 2025-06-15 21:37:51: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-15 21:37:56: Artwork added to exhibition: Artwork 1
+[EVENT] 2025-06-15 21:37:59: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-15 21:39:12: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 21:39:12: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-15 21:39:12: Artwork added: Artwork 1
+[EVENT] 2025-06-15 21:39:13: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-15 21:39:13: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-15 21:39:13: Artwork added: Artwork 2
+[EVENT] 2025-06-15 21:39:14: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-15 21:39:14: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-15 21:39:14: Artwork added: Artwork 3
+[EVENT] 2025-06-15 21:39:18: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-15 21:39:22: Artwork added to exhibition: Artwork 1
+[EVENT] 2025-06-15 21:39:24: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-15 22:19:25: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 22:19:25: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-15 22:19:25: Artwork added: Artwork 1
+[EVENT] 2025-06-15 22:19:26: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-15 22:19:26: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-15 22:19:26: Artwork added: Artwork 2
+[EVENT] 2025-06-15 22:19:26: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-15 22:19:26: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-15 22:19:26: Artwork added: Artwork 3
+[EVENT] 2025-06-15 22:19:36: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-15 22:19:39: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-15 22:19:42: Artwork added to exhibition: Artwork 1
+[EVENT] 2025-06-15 22:19:58: Saving artworks count: 3
+[EVENT] 2025-06-15 22:19:58: Saving artwork with title: Artwork 2
+[EVENT] 2025-06-15 22:19:58: Saving artwork with title: Artwork 3
+[EVENT] 2025-06-15 22:19:58: Saving artwork with title: Artwork 1
+[EVENT] 2025-06-16 01:40:41: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-16 01:40:41: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-16 01:40:41: Artwork added: Artwork 1
+[EVENT] 2025-06-16 01:40:42: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-16 01:40:42: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-16 01:40:42: Artwork added: Artwork 2
+[EVENT] 2025-06-16 01:40:45: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-16 01:40:45: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-16 01:40:45: Artwork added: Artwork 3
+[EVENT] 2025-06-16 01:40:56: Displayed artwork image successfully.
+[EVENT] 2025-06-16 01:41:20: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-16 01:41:23: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-16 01:41:28: Curator started organizing exhibition: Impressionist Art
+[LOG] 2025-06-16 01:41:28: Exhibition report generated successfully for: Impressionist Art
+[EVENT] 2025-06-16 02:25:37: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-16 02:25:37: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-16 02:25:37: Artwork added: Artwork 1
+[EVENT] 2025-06-16 02:25:38: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-16 02:25:38: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-16 02:25:38: Artwork added: Artwork 2
+[EVENT] 2025-06-16 02:25:38: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-16 02:25:38: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-16 02:25:38: Artwork added: Artwork 3
+[EVENT] 2025-06-16 02:25:47: Artwork added to exhibition: Artwork 1
+[EVENT] 2025-06-16 02:25:49: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-16 02:25:53: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-16 02:27:27: Curator started organizing exhibition: Impressionist Art
+[LOG] 2025-06-16 02:27:27: Exhibition report generated successfully for: Impressionist Art
+[EVENT] 2025-06-16 02:34:39: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-16 02:34:39: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-16 02:34:39: Artwork added: Artwork 1
+[EVENT] 2025-06-16 02:34:39: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-16 02:34:39: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-16 02:34:39: Artwork added: Artwork 2
+[EVENT] 2025-06-16 02:34:40: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-16 02:34:40: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-16 02:34:40: Artwork added: Artwork 3
+[EVENT] 2025-06-16 02:34:51: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-16 02:34:53: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-16 02:41:49: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-16 02:41:49: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-16 02:41:49: Artwork added: Artwork 1
+[EVENT] 2025-06-16 02:41:50: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-16 02:41:50: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-16 02:41:50: Artwork added: Artwork 2
+[EVENT] 2025-06-16 02:41:50: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-16 02:41:50: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-16 02:41:50: Artwork added: Artwork 3
+[ERROR] 2025-06-16 02:42:24: Finalize failed: No artworks in sale
+[ERROR] 2025-06-16 02:42:24: No artworks in sale
+[EVENT] 2025-06-16 02:42:29: Artwork added to exhibition: Artwork 2
+[ERROR] 2025-06-16 02:42:46: Finalize failed: No artworks in sale
+[ERROR] 2025-06-16 02:42:46: No artworks in sale
+[EVENT] 2025-06-16 02:43:35: Sale finalized: ID 1001, Total $0021
+[EVENT] 2025-06-16 03:02:48: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-16 03:02:48: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-16 03:02:48: Artwork added: Artwork 1
+[EVENT] 2025-06-16 03:02:49: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-16 03:02:49: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-16 03:02:49: Artwork added: Artwork 2
+[EVENT] 2025-06-16 03:02:50: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-16 03:02:50: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-16 03:02:50: Artwork added: Artwork 3
+[EVENT] 2025-06-16 03:02:59: Artwork added to exhibition: Artwork 1
+[EVENT] 2025-06-16 03:03:12: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-16 03:03:17: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-16 03:04:02: Curator started organizing exhibition: Impressionist Art
+[LOG] 2025-06-16 03:04:02: Exhibition report generated successfully for: Impressionist Art
+[EVENT] 2025-06-16 03:07:10: Sale finalized: ID 1, Total $0031
+[EVENT] 2025-06-16 03:07:49: Sale finalized: ID 2, Total $0021
+[EVENT] 2025-06-16 03:10:11: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-16 03:10:11: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-16 03:10:11: Artwork added: Artwork 1
+[EVENT] 2025-06-16 03:10:12: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-16 03:10:12: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-16 03:10:12: Artwork added: Artwork 2
+[EVENT] 2025-06-16 03:10:13: Image loaded successfully: artwork3.jpeg
+[EVENT] 2025-06-16 03:10:13: Artwork created for artist: Van Gogh - Artwork 3
+[EVENT] 2025-06-16 03:10:13: Artwork added: Artwork 3
+[EVENT] 2025-06-16 03:10:15: Artwork added to exhibition: Artwork 1
+[EVENT] 2025-06-16 03:10:17: Artwork added to exhibition: Artwork 2
+[EVENT] 2025-06-16 03:10:19: Artwork added to exhibition: Artwork 3
+[EVENT] 2025-06-16 03:10:49: Sale finalized: ID 1, Total $0011

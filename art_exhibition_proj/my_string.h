@@ -55,10 +55,24 @@ public:
 	friend ostream& operator<<(ostream& out, const MyString& s);
 	friend istream& operator>>(istream& in, MyString& s) {
 		char buffer[1024];
-		in >> buffer;
+		in.ignore(); 
+		in.getline(buffer, 1024); 
 		s = MyString(buffer);
 		return in;
 	}
+	bool equalsIgnoreCaseTrimmed(const MyString& other) const {
+		MyString s1 = *this;
+		MyString s2 = other;
+
+		s1.trim();
+		s2.trim();
+
+		s1.toLower();
+		s2.toLower();
+
+		return s1 == s2;
+	}
+
 };
 
 #endif

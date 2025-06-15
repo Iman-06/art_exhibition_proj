@@ -4,6 +4,8 @@
 #include "curator.h"
 #include "exhibition.h"
 #include "gallery.h"
+#include "artwork.h"
+#include "sale.h"
 #include "logger.h"
 #include "fileIOException.h"
 #include "imageLoadException.h"
@@ -19,6 +21,8 @@ int main() {
     Exhibition* exhibition = new Exhibition(1, MyString("Impressionist Art"), MyString("2025-01-01"), MyString("2025-12-31"), curator);
 	Gallery gallery(1, "Art Gallery", MyString("123 Art St"), 10);
     gallery.addCurator(curator);
+    Sale* sale = nullptr;
+    int saleID = 1;
     int choice;
     do {
         cout << "\n----- Art Exhibition Management Menu -----\n";
@@ -31,7 +35,20 @@ int main() {
         cout << "7. Sort Artworks by Year\n";
         cout << "8. Save Exhibition to Binary\n";
         cout << "9. Load Exhibition from Binary\n";
-        cout << "10. Exit\n";
+        cout << "10. Display All Artworks in Gallery\n";
+        cout << "11. Add Artist’s Artwork to Exhibition\n";
+        cout << "12. Display All Artworks in Exhibition\n";
+		cout << "13. Generate Exhibition Report\n";
+		cout << "14. Buy Artwork from Exhibition (Buyer)\n";
+		cout << "15. Remove Artwork from Exhibition\n";
+		cout << "16. Host Exhibition in Gallery\n";
+		cout << "17. Add Curator to Gallery\n";
+		cout << "18. Remove Curator from Gallery\n";
+		cout << "19. Search Artwork by Title\n";
+		cout << "20. List All Exhibitions in Gallery\n";
+        cout << "21. Generate Sale Receipt\n";
+        cout << "22. Finalize Sale\n";
+		cout << "23. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -120,15 +137,170 @@ int main() {
             exhibition->loadFromBinary(MyString("exhibition_data.bin"));
             break;
 
-        case 10:
-            cout << "Exiting..." << endl;
-            break;
+        case 10: {
+    cout << "\nArtworks in Gallery (from Exhibition):\n";
+    for (int i = 0; i < exhibition->getArtworks().getLength(); ++i) {
+        Artwork* art = exhibition->getArtworks()[i];
+        cout << "ID: " << art->getArtworkID()
+             << " | Title: " << art->getTitle()
+             << " | Year: " << art->getCreationYear()
+             << " | Price: $" << art->getPrice()
+             << " | Medium: " << art->getMedium()
+             << " | Status: " << art->getStatus() << endl;
+    }
+    break;
+}
 
+        case 11: {
+            int index;
+            cout << "Enter index of artwork to add to exhibition: ";
+            cin >> index;
+
+            if (index >= 0 && index < artist->getArtworks().getLength()) {
+                exhibition->addArtwork(artist->getArtworks()[index]);
+                logger.logEvent(MyString("Artwork added to exhibition: ").append(artist->getArtworks()[index]->getTitle()));
+                cout << "Artwork added to exhibition." << endl;
+            }
+            else {
+                cout << "Invalid index." << endl;
+            }
+            break;
+        }
+
+        case 12: {
+            cout << "\nArtworks in Exhibition:\n";
+            for (int i = 0; i < exhibition->getArtworks().getLength(); ++i) {
+                Artwork* art = exhibition->getArtworks()[i];
+                cout << "ID: " << art->getArtworkID() << " | Title: " << art->getTitle()
+                    << " | Year: " << art->getCreationYear()
+                    << " | Price: $" << art->getPrice() << endl;
+            }
+            break;
+        }
+        case 13: {
+            cout << "\n=== Exhibition Report ===\n";
+            cout << "Exhibition Name: " << exhibition->getName() << endl;
+            cout << " Start Date: " << exhibition->getStartDate() << endl;
+			cout << " End Date: " << exhibition->getEndDate() << endl;
+            cout << "Total Artworks: " << exhibition->getArtworks().getLength() << endl;
+
+            float totalValue = 0;
+            for (int i = 0; i < exhibition->getArtworks().getLength(); ++i) {
+                Artwork* art = exhibition->getArtworks()[i];
+                totalValue += art->getPrice();
+            }
+
+            cout << "Estimated Total Value: $" << totalValue << endl;
+            break;
+        }
+
+        case 14: {
+            if (!sale) {
+                MyString date("2025-06-15"); 
+                sale = new Sale(saleID++, date, buyer);
+                cout << "Sale started for buyer: " << buyer->getName() << endl;
+            }
+            exhibition->displayAllPaintings();
+            int id;
+            cout << "Enter Artwork ID to buy: ";
+            cin >> id;
+
+            Artwork* selected = nullptr;
+            Dynamic_array<Artwork*>& list = exhibition->getArtworks();
+
+            for (int i = 0; i < list.getLength(); ++i) {
+                if (list[i]->getArtworkID() == id) {
+                    selected = list[i];
+                    break;
+                }
+            }
+
+            if (selected) {
+                float price = selected->getPrice(); 
+                sale->addArtwork(selected, price);
+            }
+            else {
+                cout << "Artwork ID not found in exhibition.\n";
+            }
+
+            break;
+        }
+
+        case 15: {
+            int artID;
+            cout << "Enter Artwork ID to remove from exhibition: ";
+            cin >> artID;
+            exhibition->removeArtwork(artID);
+            break;
+        }
+        case 16:
+            gallery.hostExhibition(exhibition);
+            break;
+        case 17: {
+            int cid;
+            MyString name, email;
+            cout << "Enter Curator ID: ";
+            cin >> cid;
+            cout << "Enter Curator Name: ";
+            cin >> name;
+            cout << "Enter Email: ";
+            cin >> email;
+            Curator* newCurator = new Curator(cid, name, email, "01/01/2000", 1, "modern art");
+            gallery.addCurator(newCurator);
+            break;
+        }
+        case 18: {
+            int cid;
+            cout << "Enter Curator ID to remove: ";
+            cin >> cid;
+            gallery.removeCurator(cid);
+            break;
+        }
+        case 19: {
+            MyString searchTitle;
+            cout << "Enter Artwork Title to search: ";
+            cin >> searchTitle;
+            gallery.searchArtwork(searchTitle);
+            break;
+        }
+        case 20:
+            gallery.listAllExhibitions();
+            break;
+        case 21: {
+            if (sale) {
+                sale->generateReceipt();
+            }
+            else {
+                cout << "No sale in progress.\n";
+            }
+            break;
+        }
+        case 22: {
+            if (sale) {
+                try {
+                    sale->finalizeSale();
+                    delete sale;
+                    sale = nullptr;
+                }
+                catch (const NullReferenceException& ex) {
+                    logger.logError(ex.getMessage());
+                }
+            }
+            else {
+                cout << "No sale to finalize.\n";
+            }
+            break;
+        }
+
+
+		case 23:
+			cout << "Exiting program." << endl;
+			break;
         default:
             cout << "Invalid choice." << endl;
         }
 
-    } while (choice != 10);
+    } while (choice != 23);
 
     delete artist;
     delete buyer;
@@ -137,140 +309,58 @@ int main() {
 }
 
 
+	// this is how to call browse artwork func buyer.browseArtworks(gallery.getAllArtworks());
+
+	//to sort artworks
+	// Sort by title (A-Z)
+	//exhibition.sortArtworksBy([](Artwork* a, Artwork* b) {
+	//	return a->getTitle().is_less(b->getTitle());
+	//	});
+
+	//// Sort by price (low to high)
+	//exhibition.sortArtworksBy([](Artwork* a, Artwork* b) {
+	//	return a->getPrice() < b->getPrice();
+	//	});
+
+	//// Sort by creation year (oldest to newest)
+	//exhibition.sortArtworksBy([](Artwork* a, Artwork* b) {
+	//	return a->getCreationYear() < b->getCreationYear();
+	//	});
+
+// try catch blocks
+	/*try {
+		artist.addArtwork(artwork);
+	}
+	catch (const DuplicateArtworkException& ex) {
+		logger.logError("Duplicate artwork caught in main: " + MyString(ex.getArtworkID()));
+	}
+
+	try {
+		artwork->loadImageFromFile("somepath.jpg");
+	}
+	catch (const ImageLoadException& ex) {
+		logger.logError("Image load failed: " + ex.getFilePath());
+	}
+
+	try {
+		curator->organizeExhibition(exhibition);
+	}
+	catch (const NullReferenceException& ex) {
+		logger.logError("Null reference in exhibition: " + ex.getMessage());
+	}
+
+	try {
+		exhibition->saveToBinary("output.bin");
+	}
+	catch (const FileIOException& ex) {
+		logger.logError("Failed to save exhibition: " + ex.getFileName());
+	}
+	*/
 
 
-
-//#include "Artwork.h"
-//#include "Artist.h"
-//#include "My_string.h"
-//#include "ImageLoadException.h"
-//#include <iostream>
-//#include <opencv2/opencv.hpp>
-//using namespace cv;
-//int main() {
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//	////cout << "Hello, World!" << endl;
-//	//std::string path = "C:\\Users\\LENOVO\\Pictures\\sample.png"; // ✅ Change to your image path
-//
-//	//// Load the image from file
-//	//Mat image = imread(path);
-//
-//	//// Check if the image loaded successfully
-//	//if (image.empty()) {
-//	//	std::cout << "Failed to load image from: " << path << std::endl;
-//	//	return -1;
-//	//}
-//
-//	//// Optional: Resize the image to fit better on screen
-//	//Mat resizedImage;
-//	//resize(image, resizedImage, Size(800, 600)); // Resize to 800x600 pixels
-//
-//	//// Create a resizable window
-//	//namedWindow("Test Image", WINDOW_NORMAL);
-//
-//	//// Display the image
-//	//imshow("Test Image", resizedImage);
-//
-//	//// Wait until a key is pressed
-//	//waitKey(0);
-//
-//	Artist artist1(1, "van gogh", "email@123","09/08/1990",1,"italy","oil painting");
-//	Artwork art(1, "image", 100.0, "Oil on Canvas", 2023, nullptr, MyString("artwork1.jpg"));
-//
-//		// Use the actual image file name (only the file name, not the full path)
-//		MyString imageFileName("artwork1.jpeg"); // replace with your actual file in /images/
-//
-//		try {
-//			art.loadImageFromFile(imageFileName);
-//			art.displayImage();
-//		}
-//		catch (const ImageLoadException& ex) {
-//			std::cout << "Exception: " << ex.getMessage() << std::endl;
-//		}
-//
-//		return 0;
-//	}
-//
-//
-//	// this is how to call browse artwork func buyer.browseArtworks(gallery.getAllArtworks());
-//
-//	//to sort artworks
-//	// Sort by title (A-Z)
-//	//exhibition.sortArtworksBy([](Artwork* a, Artwork* b) {
-//	//	return a->getTitle().is_less(b->getTitle());
-//	//	});
-//
-//	//// Sort by price (low to high)
-//	//exhibition.sortArtworksBy([](Artwork* a, Artwork* b) {
-//	//	return a->getPrice() < b->getPrice();
-//	//	});
-//
-//	//// Sort by creation year (oldest to newest)
-//	//exhibition.sortArtworksBy([](Artwork* a, Artwork* b) {
-//	//	return a->getCreationYear() < b->getCreationYear();
-//	//	});
-//
-//
-//	//if artwork is added
-////	logger.logEvent("Artwork created for artist: " + artist.getName());
-//	// if sale is finalized
-//	//	logger.logEvent("Sale finalized with buyer: " + buyer.getName());
-//
-//
-//	/*try {
-//		artist.addArtwork(artwork);
-//	}
-//	catch (const DuplicateArtworkException& ex) {
-//		logger.logError("Duplicate artwork caught in main: " + MyString(ex.getArtworkID()));
-//	}
-//
-//	try {
-//		artwork->loadImageFromFile("somepath.jpg");
-//	}
-//	catch (const ImageLoadException& ex) {
-//		logger.logError("Image load failed: " + ex.getFilePath());
-//	}
-//
-//	try {
-//		curator->organizeExhibition(exhibition);
-//	}
-//	catch (const NullReferenceException& ex) {
-//		logger.logError("Null reference in exhibition: " + ex.getMessage());
-//	}
-//
-//	try {
-//		exhibition->saveToBinary("output.bin");
-//	}
-//	catch (const FileIOException& ex) {
-//		logger.logError("Failed to save exhibition: " + ex.getFileName());
-//	}
-//	*/
-//
-//
-//	//try {
-//	//	// all main logic
-//	//}
-//	//catch (const Exception& ex) {
-//	//	logger.logError("Unhandled exception: " + ex.getMessage());
-//	//}
-//
-//
-//	//return 0;
-////}
+	//try {
+	//	// all main logic
+	//}
+	//catch (const Exception& ex) {
+	//	logger.logError("Unhandled exception: " + ex.getMessage());
+	//}

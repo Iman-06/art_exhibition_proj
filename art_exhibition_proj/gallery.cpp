@@ -57,7 +57,7 @@ void Gallery::searchArtwork(const MyString& title) {
     for (int i = 0; i < exhibitions.getLength(); i++) {
         Dynamic_array<Artwork*>& artworks = exhibitions[i]->getArtworks();
         for (int j = 0; j < artworks.getLength(); j++) {
-            if (artworks[j]->getTitle() == title) {
+            if (artworks[j]->getTitle().equalsIgnoreCaseTrimmed(title)){
                 cout << "Found in exhibition: " << exhibitions[i]->getName() << endl;
                 found = true;
             }

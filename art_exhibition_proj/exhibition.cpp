@@ -82,7 +82,7 @@ void Exhibition::saveToBinary(const MyString& path) {
 
         int count = artworks.getLength();
         outFile.write(reinterpret_cast<char*>(&count), sizeof(count));
-
+        logger.logEvent("Saving artworks count: " + MyString(count));
         for (int i = 0; i < count; ++i) {
             Artwork* a = artworks[i];
 
@@ -114,6 +114,7 @@ void Exhibition::saveToBinary(const MyString& path) {
             len = img.length(img.return_array());
             outFile.write(reinterpret_cast<char*>(&len), sizeof(int));
             outFile.write(img.return_array(), len);
+            logger.logEvent("Saving artwork with title: " + a->getTitle());
         }
     }
 

@@ -67,7 +67,7 @@ void Sale::finalizeSale() {
 
     calculateTotal();
     generateReceipt();
-	logger.logEvent("Sale finalized: ID " + MyString(saleID) + ", Total $" + MyString(totalAmount));
+    logger.logEvent("Sale finalized: ID " + MyString(saleID) + ", Total $" + MyString(totalAmount));
     cout << "Sale finalized successfully!" << endl;
 }
 int Sale::getSaleID() const { return saleID; }
