@@ -19,7 +19,7 @@ public:
     int getLength() const;
     T& operator[](int index);
     const T& operator[](int index) const;
-	//void clear();
+	void clear();
 };
 
 template <typename T>
@@ -124,5 +124,8 @@ const T& Dynamic_array<T>::operator[](int index) const {
     }
     throw out_of_range("Index out of range");
 }
-
+template <typename T>
+void Dynamic_array<T>::clear() {
+	len = 0;
+}
 #endif

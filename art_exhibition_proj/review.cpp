@@ -1,18 +1,19 @@
 #include "Review.h"
 #include "Artwork.h"
 #include <iostream>
+using namespace std;
 
 Review::Review(int id, int r, const MyString& text, Artwork* art)
     : reviewID(id), rating(r), reviewText(text), artwork(art) {}
 
 void Review::printReview() {
-    std::cout << "Review ID: " << reviewID << std::endl;
-    std::cout << "Rating: " << rating << "/5" << std::endl;
-    std::cout << "Review: " << reviewText << std::endl;
+    cout << "Review ID: " << reviewID << endl;
+    cout << "Rating: " << rating << "/5" << endl;
+    cout << "Review: " << reviewText << endl;
     if (artwork) {
-        std::cout << "Artwork: " << artwork->getTitle() << std::endl;
+        cout << "Artwork: " << artwork->getTitle() << endl;
     }
-    std::cout << "------------------------" << std::endl;
+    cout << "------------------------" << endl;
 }
 
 int Review::getReviewID() const {

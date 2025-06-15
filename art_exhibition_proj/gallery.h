@@ -17,7 +17,7 @@ private:
 
 public:
     Gallery(int id, const MyString& n, const MyString& loc, int cap);
-
+	~Gallery();
     void hostExhibition(Exhibition* exhibition);
     void addCurator(Curator* curator);
     void removeCurator(int curatorID);

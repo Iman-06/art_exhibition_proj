@@ -18,7 +18,7 @@ public:
         const MyString& dob, int artId, const MyString& country, const MyString& style);
 
     void displayInfo()const override;
-    void createArtwork();
+  //  void createArtwork();
     void addArtwork(Artwork* artwork); 
     void listArtworks();
     int getArtistID() const;

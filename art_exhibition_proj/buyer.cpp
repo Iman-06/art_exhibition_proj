@@ -1,42 +1,62 @@
 #include "Buyer.h"
 #include "Artwork.h"
 #include "Dynamic_array.h"
+#include "Logger.h"
+#include "nullReferenceException.h"
+#include "imageLoadException.h"
 #include <iostream>
+using namespace std;
 
 Buyer::Buyer(int personId, const MyString& name, const MyString& email,
     const MyString& dob, int buyerId, const MyString& addr)
     : Person(personId, name, email, dob), buyerID(buyerId), address(addr) {}
 
 void Buyer::displayInfo()const {
-    std::cout << "Buyer Information:" << std::endl;
-    std::cout << "ID: " << personID << std::endl;
-    std::cout << "Name: " << name << std::endl;
-    std::cout << "Email: " << email << std::endl;
-    std::cout << "Date of Birth: " << dateOfBirth << std::endl;
-    std::cout << "Buyer ID: " << buyerID << std::endl;
-    std::cout << "Address: " << address << std::endl;
+    cout << "Buyer Information:" << endl;
+    cout << "ID: " << personID << endl;
+    cout << "Name: " << name << endl;
+    cout << "Email: " << email << endl;
+    cout << "Date of Birth: " << dateOfBirth << endl;
+    cout << "Buyer ID: " << buyerID << endl;
+    cout << "Address: " << address << endl;
 }
 
 void Buyer::purchaseArtwork(Artwork* artwork) {
     if (artwork && artwork->isAvailableForSale()) {
-        std::cout << "Purchasing artwork: " << artwork->getTitle()
-            << " for $" << artwork->getPrice() << std::endl;
+        cout << "Purchasing artwork: " << artwork->getTitle()
+            << " for $" << artwork->getPrice() << endl;
         artwork->setStatus("Sold");
     }
     else {
-        std::cout << "Artwork not available for purchase" << std::endl;
+        cout << "Artwork not available for purchase" << endl;
+    }
+}
+void Buyer::viewArtwork(Artwork* artwork) {
+    if (!artwork) {
+        Logger logger("log.txt");
+        logger.logError("Attempted to view a null artwork.");
+        throw NullReferenceException("Null artwork passed to viewArtwork", 301, "Artwork");
+    }
+
+    try {
+        artwork->loadImageFromFile(artwork->getImagePath());
+        artwork->displayImage();
+    }
+    catch (const ImageLoadException& ex) {
+        Logger logger("log.txt");
+        logger.logError("Image load failed for artwork: " + artwork->getTitle() + " | " + ex.getMessage());
     }
 }
 
 void Buyer::browseArtworks(const Dynamic_array<Artwork*>& artworks) {
-    std::cout << "Browsing available artworks...\n" << std::endl;
+    cout << "Browsing available artworks...\n" << endl;
 
     for (int i = 0; i < artworks.getLength(); ++i) {
         if (artworks[i]->isAvailableForSale()) {
-            std::cout << "Artwork ID: " << artworks[i]->getArtworkID() << std::endl;
-            std::cout << "Title: " << artworks[i]->getTitle() << std::endl;
-            std::cout << "Price: $" << artworks[i]->getPrice() << std::endl;
-            std::cout << "---------------------------" << std::endl;
+            cout << "Artwork ID: " << artworks[i]->getArtworkID() << endl;
+            cout << "Title: " << artworks[i]->getTitle() << endl;
+            cout << "Price: $" << artworks[i]->getPrice() << endl;
+            cout << "---------------------------" << endl;
         }
     }
 }

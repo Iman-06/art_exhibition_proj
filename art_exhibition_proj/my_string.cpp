@@ -257,6 +257,7 @@ MyString& MyString::append(const MyString& s2) {
 		}
 		str[Newlen] = '\0';
 		len = Newlen;
+		return *this;
 	}
 }
 // MyString operator+(const MyString& s) {

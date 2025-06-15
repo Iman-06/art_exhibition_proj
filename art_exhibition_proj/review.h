@@ -2,8 +2,6 @@
 #define REVIEW_H
 
 #include "My_string.h"
-
-// Forward declaration
 class Artwork;
 
 class Review {

@@ -1,0 +1,19 @@
+[ERROR] 2025-06-15 14:36:31: Failed to load image: artwork1.jpg
+[EVENT] 2025-06-15 14:40:50: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 14:40:51: Displayed artwork image successfully.
+[EVENT] 2025-06-15 16:46:06: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 16:46:07: Displayed artwork image successfully.
+[EVENT] 2025-06-15 19:07:19: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 19:07:19: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-15 19:07:19: Artwork added: Artwork 1
+[EVENT] 2025-06-15 19:07:38: Displayed artwork image successfully.
+[EVENT] 2025-06-15 19:36:16: Image loaded successfully: artwork1.jpeg
+[EVENT] 2025-06-15 19:36:16: Artwork created for artist: Van Gogh - Artwork 1
+[EVENT] 2025-06-15 19:36:16: Artwork added: Artwork 1
+[EVENT] 2025-06-15 19:36:20: Image loaded successfully: artwork2.jpeg
+[EVENT] 2025-06-15 19:36:20: Artwork created for artist: Van Gogh - Artwork 2
+[EVENT] 2025-06-15 19:36:20: Artwork added: Artwork 2
+[EVENT] 2025-06-15 19:36:38: Displayed artwork image successfully.
+[EVENT] 2025-06-15 19:36:53: Displayed artwork image successfully.
+[EVENT] 2025-06-15 19:37:12: Curator started organizing exhibition: Impressionist Art
+[LOG] 2025-06-15 19:37:12: Exhibition report generated successfully for: Impressionist Art

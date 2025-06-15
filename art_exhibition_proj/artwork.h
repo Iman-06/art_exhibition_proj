@@ -4,7 +4,7 @@
 #include "My_string.h"
 #include "Dynamic_array.h"
 #include "Exception.h"
-//#include <opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>
 class Artist;
 class Review;
 
@@ -16,16 +16,22 @@ private:
     MyString medium;
     int creationYear;
     MyString status;
-    Artist* createdBy;
-   // cv::Mat imageData;
+    // The Artist object must remain alive as long as any Artwork references it.
+    Artist* createdBy; //association
+    MyString imagePath;
+    cv::Mat imageData;
     Dynamic_array<Review*> reviews;
 
+
 public:
-    Artwork(int id, const MyString& t, float p, const MyString& m, int year, Artist* artist);
+    Artwork();
+    Artwork(int id, const MyString& t, float p, const MyString& m, int year, Artist* artist, const MyString& path);
     ~Artwork();
+    const MyString& getImagePath() const;
+    void setImagePath(const MyString& path);
     Artwork(const Artwork&) = delete; //artworks are unique
     Artwork& operator=(const Artwork&) = delete;
-    void loadImageFromFile(const MyString& path); // throws ImageLoadException
+    void loadImageFromFile(const MyString& fileName); // throws ImageLoadException
     void displayImage();
     void addReview(Review* review);
     void listReviews();
@@ -42,6 +48,9 @@ public:
     void setTitle(const MyString& t);
     void setPrice(float p);
     void setStatus(const MyString& s);
+	void setMedium(const MyString& m);
+	void setCreationYear(int year);
+	void setArtworkID(int id) { artworkID = id; }
 };
 
 #endif

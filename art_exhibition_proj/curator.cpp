@@ -4,18 +4,21 @@
 #include "logger.h"
 #include "fileIOException.h"
 #include "NullReferenceException.h"
+using namespace std;
+
+
 Curator::Curator(int personId, const MyString& name, const MyString& email,
     const MyString& dob, int curId, const MyString& spec)
     : Person(personId, name, email, dob), curatorID(curId), specialization(spec) {}
 
 void Curator::displayInfo()const {
-    std::cout << "Curator Information:" << std::endl;
-    std::cout << "ID: " << personID << std::endl;
-    std::cout << "Name: " << name << std::endl;
-    std::cout << "Email: " << email << std::endl;
-    std::cout << "Date of Birth: " << dateOfBirth << std::endl;
-    std::cout << "Curator ID: " << curatorID << std::endl;
-    std::cout << "Specialization: " << specialization << std::endl;
+    cout << "Curator Information:" << endl;
+    cout << "ID: " << personID << endl;
+    cout << "Name: " << name << endl;
+    cout << "Email: " << email << endl;
+    cout << "Date of Birth: " << dateOfBirth << endl;
+    cout << "Curator ID: " << curatorID << endl;
+    cout << "Specialization: " << specialization << endl;
 }
 
 
@@ -27,7 +30,7 @@ void Curator::organizeExhibition(Exhibition* exhibition) {
         throw NullReferenceException("Exhibition object is null", 201, "Exhibition");
     }
 
-    std::cout << "Organizing exhibition: " << exhibition->getName() << std::endl;
+    cout << "Organizing exhibition: " << exhibition->getName() << endl;
     logger.logEvent("Curator started organizing exhibition: " + exhibition->getName());
     try {
         exhibition->generateExhibitionReport();

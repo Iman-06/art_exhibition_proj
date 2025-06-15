@@ -1,4 +1,5 @@
 #include "Exception.h"
+using namespace std;
 
 Exception::Exception(const MyString& msg, int code) : message(msg), errorCode(code) {}
 

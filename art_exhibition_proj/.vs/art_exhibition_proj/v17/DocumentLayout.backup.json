@@ -3,32 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:gallery.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exhibition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:exhibition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exhibition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:exhibition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:my_string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\curator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:curator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:exception.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:buyer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:buyer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:imageLoadException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:my_string.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\curator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:curator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:sale.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:imageLoadException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:exception.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:fileIOException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\curator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -43,36 +103,28 @@
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:review.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:gallery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:my_string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:gallery.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:buyer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:sale.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:buyer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:duplicateArtworkException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:artist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:sale.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:duplicateArtworkException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\nullReferenceException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -83,60 +135,12 @@
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:nullReferenceException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:exception.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:exception.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:duplicateArtworkException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:imageLoadException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:duplicateArtworkException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:fileIOException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:sale.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:gallery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\dynamic_array.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:dynamic_array.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:fileIOException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20C113EB-CA1D-46BB-9D49-8703D05D91C7}|art_exhibition_proj.vcxproj|solutionrelative:imageLoadException.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,37 +150,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 4,
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\log.txt",
+              "RelativeDocumentMoniker": "log.txt",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\log.txt",
+              "RelativeToolTip": "log.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-14T12:38:13.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "fileIOException.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.h",
               "RelativeDocumentMoniker": "fileIOException.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.h",
               "RelativeToolTip": "fileIOException.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:09:27.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 19,
               "Title": "fileIOException.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.cpp",
               "RelativeDocumentMoniker": "fileIOException.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\fileIOException.cpp",
               "RelativeToolTip": "fileIOException.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:09:18.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "nullReferenceException.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\nullReferenceException.h",
               "RelativeDocumentMoniker": "nullReferenceException.h",
@@ -189,20 +206,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "nullReferenceException.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\nullReferenceException.cpp",
               "RelativeDocumentMoniker": "nullReferenceException.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\nullReferenceException.cpp",
               "RelativeToolTip": "nullReferenceException.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:08:49.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "duplicateArtworkException.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.h",
               "RelativeDocumentMoniker": "duplicateArtworkException.h",
@@ -215,20 +232,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "duplicateArtworkException.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.cpp",
               "RelativeDocumentMoniker": "duplicateArtworkException.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\duplicateArtworkException.cpp",
               "RelativeToolTip": "duplicateArtworkException.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:08:22.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 10,
               "Title": "imageLoadException.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.h",
               "RelativeDocumentMoniker": "imageLoadException.h",
@@ -241,20 +258,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 17,
               "Title": "imageLoadException.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.cpp",
               "RelativeDocumentMoniker": "imageLoadException.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\imageLoadException.cpp",
               "RelativeToolTip": "imageLoadException.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:07:56.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "exception.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.h",
               "RelativeDocumentMoniker": "exception.h",
@@ -267,39 +284,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 7,
               "Title": "exception.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.cpp",
               "RelativeDocumentMoniker": "exception.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exception.cpp",
               "RelativeToolTip": "exception.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:07:15.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "logger.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.h",
               "RelativeDocumentMoniker": "logger.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.h",
               "RelativeToolTip": "logger.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:07:09.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 13,
               "Title": "logger.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.cpp",
               "RelativeDocumentMoniker": "logger.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\logger.cpp",
               "RelativeToolTip": "logger.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwCMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:07:04.166Z",
               "EditorCaption": ""
@@ -312,46 +329,46 @@
               "RelativeDocumentMoniker": "sale.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.h",
               "RelativeToolTip": "sale.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:06:59.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "sale.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.cpp",
               "RelativeDocumentMoniker": "sale.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\sale.cpp",
               "RelativeToolTip": "sale.cpp",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAEQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEUAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:06:54.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 26,
               "Title": "gallery.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.h",
               "RelativeDocumentMoniker": "gallery.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.h",
               "RelativeToolTip": "gallery.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:06:51.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "gallery.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.cpp",
               "RelativeDocumentMoniker": "gallery.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\gallery.cpp",
               "RelativeToolTip": "gallery.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:06:45.996Z",
               "EditorCaption": ""
@@ -364,92 +381,92 @@
               "RelativeDocumentMoniker": "exhibition.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exhibition.h",
               "RelativeToolTip": "exhibition.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwCwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:06:41.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "exhibition.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exhibition.cpp",
               "RelativeDocumentMoniker": "exhibition.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\exhibition.cpp",
               "RelativeToolTip": "exhibition.cpp",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:06:34.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "review.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\review.h",
               "RelativeDocumentMoniker": "review.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\review.h",
               "RelativeToolTip": "review.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:06:23.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "review.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\review.cpp",
               "RelativeDocumentMoniker": "review.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\review.cpp",
               "RelativeToolTip": "review.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:06:17.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "artwork.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.cpp",
               "RelativeDocumentMoniker": "artwork.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.cpp",
               "RelativeToolTip": "artwork.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:06:06.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "artwork.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.h",
               "RelativeDocumentMoniker": "artwork.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artwork.h",
               "RelativeToolTip": "artwork.h",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:05:39.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "curator.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\curator.cpp",
               "RelativeDocumentMoniker": "curator.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\curator.cpp",
               "RelativeToolTip": "curator.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:03:53.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "curator.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\curator.h",
               "RelativeDocumentMoniker": "curator.h",
@@ -462,59 +479,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "buyer.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.cpp",
               "RelativeDocumentMoniker": "buyer.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.cpp",
               "RelativeToolTip": "buyer.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:03:35.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "buyer.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.h",
               "RelativeDocumentMoniker": "buyer.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\buyer.h",
               "RelativeToolTip": "buyer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:03:23.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "artist.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.cpp",
               "RelativeDocumentMoniker": "artist.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.cpp",
               "RelativeToolTip": "artist.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAEIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:03:17.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "artist.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.h",
               "RelativeDocumentMoniker": "artist.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\artist.h",
               "RelativeToolTip": "artist.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-11T14:03:12.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 21,
               "Title": "person.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.h",
               "RelativeDocumentMoniker": "person.h",
@@ -527,65 +544,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "person.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.cpp",
               "RelativeDocumentMoniker": "person.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\person.cpp",
               "RelativeToolTip": "person.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-11T14:02:54.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "dynamic_array.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\dynamic_array.h",
               "RelativeDocumentMoniker": "dynamic_array.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\dynamic_array.h",
               "RelativeToolTip": "dynamic_array.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAHkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-10T11:56:02.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "my_string.h",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.h",
               "RelativeDocumentMoniker": "my_string.h",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.h",
               "RelativeToolTip": "my_string.h",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwDQAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwD0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-10T11:55:09.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "my_string.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.cpp",
               "RelativeDocumentMoniker": "my_string.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\my_string.cpp",
               "RelativeToolTip": "my_string.cpp",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAAJgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAApwAMBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-10T11:54:43.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\sem2_proj\\art_exhibition_proj\\art_exhibition_proj\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-22T18:17:06.46Z",
               "EditorCaption": ""

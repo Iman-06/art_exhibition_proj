@@ -2,6 +2,8 @@
 #define BUYER_H
 
 #include "Person.h"
+#include "Dynamic_array.h"
+#include "artwork.h"
 class Artwork;
 
 class Buyer : public Person {
@@ -14,6 +16,7 @@ public:
         const MyString& dob, int buyerId, const MyString& addr);
     void displayInfo()const override;
     void purchaseArtwork(Artwork* artwork);
+    void viewArtwork(Artwork* artwork);
     void browseArtworks(const Dynamic_array<Artwork*>& artworks);
     int getBuyerID() const;
     MyString getAddress() const;
