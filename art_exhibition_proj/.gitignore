@@ -1,0 +1,10 @@
+# Visual Studio cache files
+*.ipch
+*.pch
+/ipch/
+*.obj
+*.pdb
+bin/
+obj/
+Debug/
+Release/
