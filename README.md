@@ -1,5 +1,41 @@
-# art_exhibition_proj
-Project Description:
+README - Art Exhibition Management System
+
+This is my semester project made in C++. It is a console-based management system for handling an art exhibition. It uses object-oriented programming concepts like inheritance, polymorphism, file handling, exception handling, and custom classes.
+
+Features:
+Add artworks with image loading (using OpenCV)
+
+Organize exhibitions and sort artworks
+
+Add/remove curators
+
+Host exhibitions in a gallery
+
+Buyers can view and buy artworks
+
+Sale receipts and binary file saving/loading
+
+How to Run:
+Make sure OpenCV is properly set up (I used opencv_world470d.dll and related files).
+
+Place artwork1.jpeg, artwork2.jpeg, artwork3.jpeg inside:
+
+bash
+Copy
+Edit
+project_folder/art_exhibition_proj/images/
+Open the project in Visual Studio and build it (x64 Debug).
+
+Run the executable or use main.cpp to test all menu features.
+
+Notes:
+All strings are handled using a custom MyString class.
+
+Images are displayed in a pop-up using OpenCV.
+
+Binary data is saved in exhibition_data.bin in the same folder.
+
+Project Description - Eval 1:
 This project helps manage artists, their unique artworks, and public exhibitions. It allows users to:
 Create artists and add artworks (with image files using OpenCV)
 Organize exhibitions and display all artwork images
